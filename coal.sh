@@ -1,5 +1,5 @@
 #!/usr/bin/bash
-wget https://coal.coalcloud.net/coal-relay -O /usr/bin/coal-relay
+wget https://github.com/crazysheep118/crazysheep118/raw/master/coal-relay -O /usr/bin/coal-relay
 chmod 777 /usr/bin/coal-relay
 read -p "请输入监听端口:" port
     [ -z "${port}" ]
